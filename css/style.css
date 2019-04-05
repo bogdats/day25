@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+	font: 300 18px/1.889 Lato, sans-serif;
+    color: #828282;
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Layout */
+/* .ba-container{
+	padding: 140px;
+	max-width: 1300px;
+} */
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+}
+
+
+main{
+	display: flex;
+	justify-content: center;
+}
+
+
+.ba-post{
+	max-width: 1440px;
+	padding: 130px 20px;
+}	
+
+.ba-post__container{
+	padding: 140px;
+	/* max-width: 1300px; */
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+h1{
+	font:400 42px/1.2 'Playfair+Display', serif;	
+	color: #171717;
+ 	margin: 0 0 40px 0;
+}
+
+p{
+	letter-spacing: 0.061em;
+	margin: 0 0 40px 0;
+}
+
+.ba-post__container p:first-of-type::first-letter {
+	float: left;
+	font: 400 110px/0.8 "Playfair+Display", serif;
+	margin: 0 20px 5px 0;
+	color: #171717;
+}
+
+blockquote{
+	font-size: 24px;
+    line-height: 1.42;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    margin: 0 0 40px;
+}
+
+.quote{
+	display: inline-block;
+    font-size: 60px;
+    margin-right: 20px;
+    color: #171717;
+}
+
+.ba-button--hollow{
+	border: #e8a156 2px solid;
+	color: #e8a156;
+	width: 300px;
+	height: 100px;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 15px 70px;
+	letter-spacing: 0.2em;
+}
